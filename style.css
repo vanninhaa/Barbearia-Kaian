@@ -1,0 +1,116 @@
+
+    *{
+
+        padding:0;
+        margin:0;
+    }
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+  border-radius:8px;
+  overflow:hidden;
+}
+
+li {
+  float:left;
+  font-size:200%;
+  font-family:Georgia;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-radius:15px;
+
+}
+
+li a:hover {
+  background-color:#C4441C;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/wooden-plank-textured-background-material_53876-31378.jpg?w=2000'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+  color:white;
+  font-family:Georgia;
+  font-size:700%;
+  text-align:center;
+  background-color:#C4441C;
+  text-decoration: none;
+  border-radius:30px;
+  padding: 10px;
+  border: 1px solid #C4441C;
+  margin: 30px;
+}
+
+h2 {
+  color:white;
+  font-family:Georgia;
+  font-size:700%;
+  text-align:center;
+  background-color:#C4441C;
+  text-decoration: none;
+  border-radius:30px;
+  padding: 10px;
+  border: 2px solid #C4441C;
+  margin: 50px;
+}
+
+header {
+    background-color:#C4441C;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius:30px;
+    border: 1px solid #C4441C;
+    margin: 5px;
+  
+  }
+
+  section::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+ p {
+  color:white;
+  font-size:250%;
+  text-align:center;
+  font-family:Arial;
+}
+
+img {
+    border-radius:10px;
+}
+
+footer {
+  color:white;
+  font-family:Georgia;
+  font-size:150%;
+  text-align:center;
+  background-color:#C4441C;
+  text-decoration: none;
+  border-radius:30px;
+  padding: 10px;
+  border: 1px solid #C4441C;
+  margin: 2px;
+}
+
+div { text-align:center;
+}  
+
+
